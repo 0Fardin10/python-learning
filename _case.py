@@ -13,3 +13,9 @@ print(Albert_Einstein_Quote)
 famous_person = 'William Shakespeare'
 message = f"{famous_person} once said, 'A rose by any other name would smell as sweet'."
 print(message)
+#Stripping Names
+name = '\t jaffar\n'
+print(name.lstrip().rstrip().strip)
+#File Extension
+filename= 'python_notes.txt'
+print(filename.removesuffix('.txt')) 
