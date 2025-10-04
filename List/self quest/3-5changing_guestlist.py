@@ -1,5 +1,18 @@
-person=['Alif','Syam','Toimor']
-cnnot= person.pop(0)
-print(f"Hey dear friend why you are not  comming in my dinner ?{cnnot}")
-person.append[-1]=("Zarif") 
-print(f"hello{person(0)} glead to hear  u are  comming ")
+person = ['Alif', 'Syam', 'Toimor']
+
+print(person[0])
+print(person[1])
+print(person[2])
+
+person.remove("Alif")
+person.append('tanim')
+print(person)
+print("here alif cannot make dinner ")
+
+invition = (
+    f"hello welcome {person[0]}\n"
+    f"hello welcome {person[1]}\n"
+    f"hello welcome {person[2]}\n"
+)
+
+print(invition)
